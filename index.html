@@ -1,0 +1,905 @@
+<!doctype html>
+<html lang="en" data-theme="classic">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="IZEM ENERGY by ifri - Algeria's premier natural energy drink. Powered by Brazilian guarana, natural caffeine, and crisp fruit extracts."
+    />
+    <title>IZEM ENERGY by ifri | Unleash The Wild Power</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&family=Syne:wght@700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-theme="classic">
+    <!-- Ambient Dynamic Background -->
+    <div class="ambient-bg" aria-hidden="true">
+      <div class="ambient-grid"></div>
+      <div class="ambient-glow-orb orb-primary"></div>
+      <div class="ambient-glow-orb orb-secondary"></div>
+    </div>
+
+    <!-- Site Header -->
+    <header class="site-header">
+      <div class="nav-container">
+        <!-- Brand Logo -->
+        <a href="#hero" class="brand-logo" aria-label="IZEM ENERGY Home">
+          <div class="logo-icon">⚡</div>
+          <div>
+            <span>IZEM</span>
+            <span class="brand-tag">ENERGY • IFRI</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="nav-links" aria-label="Main Navigation">
+          <a href="#hero" class="nav-link active">Home</a>
+          <a href="#formula" class="nav-link">Formula</a>
+          <a href="#flavors" class="nav-link">Flavors</a>
+          <a href="#packs" class="nav-link">Packs & Shop</a>
+          <a href="#wild-power" class="nav-link">Wild Power</a>
+        </nav>
+
+        <!-- Header Actions -->
+        <div class="header-actions">
+          <!-- Currency Indicator -->
+          <div class="currency-badge" title="Currency in Algerian Dinar (DA)">
+            DA • DZ
+          </div>
+
+          <!-- Ambient Sound Toggle -->
+          <button
+            id="sound-toggle"
+            class="sound-btn"
+            aria-label="Toggle Sound Effects"
+            title="Toggle Sound Effects"
+          >
+            <div class="sound-bars">
+              <span class="sound-bar"></span>
+              <span class="sound-bar"></span>
+              <span class="sound-bar"></span>
+            </div>
+          </button>
+
+          <!-- Cart Trigger -->
+          <button
+            id="cart-open-btn"
+            class="cart-trigger"
+            aria-label="View Shopping Cart"
+          >
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="9" cy="21" r="1"></circle>
+              <circle cx="20" cy="21" r="1"></circle>
+              <path
+                d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"
+              ></path>
+            </svg>
+            <span>Cart</span>
+            <span id="cart-badge-count" class="cart-badge" style="display: none"
+              >0</span
+            >
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section (Tubik Signature 3-Column Layout) -->
+      <section id="hero" class="hero-section">
+        <!-- Giant Kinetic Background Typography -->
+        <div class="hero-marquee-bg" aria-hidden="true">
+          <h2>WILD POWER • IZEM • WILD POWER • IZEM</h2>
+        </div>
+
+        <div class="hero-container">
+          <!-- Left Column: Copy & Actions -->
+          <div class="hero-content-left">
+            <div class="tag-pill">
+              <span>⚡</span>
+              <span>NATURAL ENERGY DRINK</span>
+            </div>
+
+            <h1 class="hero-title">
+              <span class="title-stroke">UNLEASH THE</span>
+              <span id="hero-flavor-headline" class="title-accent"
+                >WILD POWER</span
+              >
+            </h1>
+
+            <p id="hero-flavor-sub" class="hero-subtitle">
+              Natural caffeine from green coffee beans & Brazilian guarana
+              infused with sparkling crisp fruit flavor. Zero crash, pure focus.
+            </p>
+
+            <div class="hero-actions">
+              <button id="hero-quick-buy" class="btn btn-primary">
+                <span>Order 6-Pack • 690 DA</span>
+                <span>→</span>
+              </button>
+              <a href="#flavors" class="btn btn-outline">
+                <span>Explore Flavors</span>
+                <span>↓</span>
+              </a>
+            </div>
+
+            <div class="hero-meta-strip">
+              <div class="meta-item">
+                <span class="meta-value">80mg</span>
+                <span class="meta-label">Natural Caffeine</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-value">B-Complex</span>
+                <span class="meta-label">B3 • B5 • B6 • B12</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-value">100%</span>
+                <span class="meta-label">Pure Spring Water</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Center Column: Floating Can Stage -->
+          <div id="hero-can-stage" class="hero-can-stage">
+            <!-- Floating Feature Badges -->
+            <div class="floating-badge badge-top-left">
+              <div class="badge-icon">🌿</div>
+              <div class="badge-text">
+                <span class="badge-title">Guarana Extract</span>
+                <span class="badge-sub">Sustained Clean Focus</span>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-bottom-right">
+              <div class="badge-icon">🧊</div>
+              <div class="badge-text">
+                <span class="badge-title">Crisp Sparkling</span>
+                <span class="badge-sub">250ml Ice-Cold Can</span>
+              </div>
+            </div>
+
+            <!-- Can Wrapper with 3D Mouse Movement -->
+            <div id="hero-can-wrapper" class="hero-can-wrapper">
+              <img
+                id="hero-can-img"
+                src="imgs/can-classic-norm.png"
+                alt="IZEM Energy Drink Can"
+                class="hero-can-img"
+              />
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Flavor Picker Card -->
+          <div class="hero-content-right">
+            <div class="flavor-picker-card">
+              <div class="card-header-sm">
+                <span class="card-title-sm">Current Flavor</span>
+                <span
+                  class="tag-pill"
+                  style="font-size: 0.7rem; padding: 3px 8px"
+                  >Active</span
+                >
+              </div>
+
+              <h3 id="card-flavor-name" class="active-flavor-name">
+                Classic Lion Energy
+              </h3>
+              <p id="card-flavor-desc" class="active-flavor-desc">
+                Original electric boost infused with natural guarana & Brazilian
+                caffeine extract.
+              </p>
+
+              <div class="card-header-sm">
+                <span class="card-title-sm">Switch Flavor</span>
+              </div>
+
+              <!-- 4 Flavor Selector Buttons -->
+              <div class="flavor-selector-list">
+                <button
+                  class="flavor-btn active"
+                  data-flavor="classic"
+                  aria-label="Select Classic Lion Flavor"
+                >
+                  <span class="flavor-dot dot-classic"></span>
+                  <span>Classic</span>
+                </button>
+
+                <button
+                  class="flavor-btn"
+                  data-flavor="pomme-figue"
+                  aria-label="Select Pomme & Figue Flavor"
+                >
+                  <span class="flavor-dot dot-pomme"></span>
+                  <span>Pomme-Figue</span>
+                </button>
+
+                <button
+                  class="flavor-btn"
+                  data-flavor="pasteque-fraise"
+                  aria-label="Select Pastèque & Fraise Flavor"
+                >
+                  <span class="flavor-dot dot-pasteque"></span>
+                  <span>Pastèque</span>
+                </button>
+
+                <button
+                  class="flavor-btn"
+                  data-flavor="cerise"
+                  aria-label="Select Cerise Sauvage Flavor"
+                >
+                  <span class="flavor-dot dot-cerise"></span>
+                  <span>Cerise</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Kinetic Ticker Strip -->
+      <div class="ticker-strip" aria-hidden="true">
+        <div class="ticker-track">
+          <div class="ticker-item">
+            <span>⚡</span> 100% NATURAL CAFFEINE <span>•</span> ZERO JITTER
+            <span>•</span> FEEL THE WILD POWER <span>•</span> ALGERIAN SPRING
+            WATER <span>•</span> VITAMINS B3 B5 B6 B12 <span>•</span> INSTANT
+            HYDRATION <span>•</span>
+          </div>
+          <div class="ticker-item">
+            <span>⚡</span> 100% NATURAL CAFFEINE <span>•</span> ZERO JITTER
+            <span>•</span> FEEL THE WILD POWER <span>•</span> ALGERIAN SPRING
+            WATER <span>•</span> VITAMINS B3 B5 B6 B12 <span>•</span> INSTANT
+            HYDRATION <span>•</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Formula & Ingredients Section -->
+      <section id="formula" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="tag-pill">THE CORE FORMULA</span>
+            <h2 class="section-title">
+              Engineered For <span>Unstoppable Energy</span>
+            </h2>
+            <p class="section-desc">
+              Every drop of IZEM is formulated with premium botanical stimulants
+              and essential micronutrients for maximum endurance and razor-sharp
+              mental clarity.
+            </p>
+          </div>
+
+          <div id="story-section" class="story-grid">
+            <!-- Card 1 -->
+            <div class="story-card">
+              <span class="story-card-num">01</span>
+              <h3 class="story-card-title">
+                Natural Caffeine & Amazonian Guarana
+              </h3>
+              <p class="story-card-desc">
+                Derived directly from natural plant seeds, delivering a smooth,
+                prolonged energy curve without the dreaded sugar spike or
+                mid-day crash.
+              </p>
+              <div class="story-stats">
+                <div class="stat-item">
+                  <span class="stat-num">80mg</span>
+                  <span class="stat-desc">Active Caffeine</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-num">0%</span>
+                  <span class="stat-desc">Artificial Taurine</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="story-card">
+              <span class="story-card-num">02</span>
+              <h3 class="story-card-title">Metabolic Vitamin B-Complex</h3>
+              <p class="story-card-desc">
+                A potent synergy of Vitamins B3, B5, B6, and B12 that
+                accelerates cellular energy conversion and supports optimal
+                nervous system recovery.
+              </p>
+              <div class="story-stats">
+                <div class="stat-item">
+                  <span class="stat-num">4x</span>
+                  <span class="stat-desc">Essential B-Vitamins</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-num">100%</span>
+                  <span class="stat-desc">Daily Nutrient Value</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="story-card">
+              <span class="story-card-num">03</span>
+              <h3 class="story-card-title">Pure Algerian Spring Water</h3>
+              <p class="story-card-desc">
+                Bottled directly from Ifri's pristine mountain natural aquifers.
+                Crisp carbonation and authentic fruit essences with zero heavy
+                aftertaste.
+              </p>
+              <div class="story-stats">
+                <div class="stat-item">
+                  <span class="stat-num">250ml</span>
+                  <span class="stat-desc">Slimline Can</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-num">100%</span>
+                  <span class="stat-desc">Recyclable Aluminum</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Flavor Lab Section -->
+      <section
+        id="flavors"
+        class="section"
+        style="background: rgba(255, 255, 255, 0.01)"
+      >
+        <div class="container">
+          <div class="section-header">
+            <span class="tag-pill">FLAVOR LAB</span>
+            <h2 class="section-title">
+              Choose Your <span>Signature Boost</span>
+            </h2>
+            <p class="section-desc">
+              Four distinct profiles crafted to match your intensity. Click to
+              preview or add directly to your order.
+            </p>
+          </div>
+
+          <div id="flavor-lab" class="flavor-cards-grid">
+            <!-- Flavor Card 1: Classic -->
+            <div class="flavor-item-card">
+              <span class="flavor-badge-tag">Bestseller</span>
+              <div class="flavor-img-box">
+                <img
+                  src="imgs/can-classic-norm.png"
+                  alt="IZEM Energy Classic Lion"
+                  loading="lazy"
+                />
+              </div>
+              <h3 class="flavor-card-name">Classic Lion</h3>
+              <p class="flavor-card-notes">
+                Electric punch with natural guarana and smooth citrus notes.
+              </p>
+              <div class="flavor-card-price">120 DA</div>
+              <div class="flavor-card-actions">
+                <button
+                  class="btn btn-primary btn-sm btn-flavor-add"
+                  data-flavor="classic"
+                >
+                  Add To Cart
+                </button>
+                <button
+                  class="btn btn-outline btn-sm"
+                  onclick="window.setFlavor && window.setFlavor('classic')"
+                >
+                  Preview
+                </button>
+              </div>
+            </div>
+
+            <!-- Flavor Card 2: Pomme - Figue -->
+            <div class="flavor-item-card">
+              <span class="flavor-badge-tag">Fresh</span>
+              <div class="flavor-img-box">
+                <img
+                  src="imgs/can-pomme-figue-norm.png"
+                  alt="IZEM Energy Pomme & Figue"
+                  loading="lazy"
+                />
+              </div>
+              <h3 class="flavor-card-name">Pomme & Figue</h3>
+              <p class="flavor-card-notes">
+                Tart Mediterranean green apple balanced with sweet Algerian fig.
+              </p>
+              <div class="flavor-card-price">120 DA</div>
+              <div class="flavor-card-actions">
+                <button
+                  class="btn btn-primary btn-sm btn-flavor-add"
+                  data-flavor="pomme-figue"
+                >
+                  Add To Cart
+                </button>
+                <button
+                  class="btn btn-outline btn-sm"
+                  onclick="window.setFlavor && window.setFlavor('pomme-figue')"
+                >
+                  Preview
+                </button>
+              </div>
+            </div>
+
+            <!-- Flavor Card 3: Pasteque - Fraise -->
+            <div class="flavor-item-card">
+              <span class="flavor-badge-tag">Summer</span>
+              <div class="flavor-img-box">
+                <img
+                  src="imgs/can-pasteque-fraise-norm.png"
+                  alt="IZEM Energy Pastèque & Fraise"
+                  loading="lazy"
+                />
+              </div>
+              <h3 class="flavor-card-name">Pastèque & Fraise</h3>
+              <p class="flavor-card-notes">
+                Juicy crisp watermelon blended with ripe wild summer strawberry.
+              </p>
+              <div class="flavor-card-price">120 DA</div>
+              <div class="flavor-card-actions">
+                <button
+                  class="btn btn-primary btn-sm btn-flavor-add"
+                  data-flavor="pasteque-fraise"
+                >
+                  Add To Cart
+                </button>
+                <button
+                  class="btn btn-outline btn-sm"
+                  onclick="
+                    window.setFlavor && window.setFlavor('pasteque-fraise')
+                  "
+                >
+                  Preview
+                </button>
+              </div>
+            </div>
+
+            <!-- Flavor Card 4: Cerise -->
+            <div class="flavor-item-card">
+              <span class="flavor-badge-tag">Intense</span>
+              <div class="flavor-img-box">
+                <img
+                  src="imgs/can-cerise-norm.png"
+                  alt="IZEM Energy Cerise Sauvage"
+                  loading="lazy"
+                />
+              </div>
+              <h3 class="flavor-card-name">Cerise Sauvage</h3>
+              <p class="flavor-card-notes">
+                Bold dark cherry with a tart energetic finish for high-output
+                focus.
+              </p>
+              <div class="flavor-card-price">120 DA</div>
+              <div class="flavor-card-actions">
+                <button
+                  class="btn btn-primary btn-sm btn-flavor-add"
+                  data-flavor="cerise"
+                >
+                  Add To Cart
+                </button>
+                <button
+                  class="btn btn-outline btn-sm"
+                  onclick="window.setFlavor && window.setFlavor('cerise')"
+                >
+                  Preview
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pack Builder & Purchase Section -->
+      <section id="packs" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="tag-pill">PACK BUILDER</span>
+            <h2 class="section-title">Stock Up & <span>Save Big</span></h2>
+            <p class="section-desc">
+              Select your pack size, pick your favorite flavor, and enjoy rapid
+              delivery across all 58 wilayas of Algeria.
+            </p>
+          </div>
+
+          <div class="pack-builder-layout">
+            <!-- Left: Trio Cans Showcase -->
+            <div class="pack-visual-showcase">
+              <div class="trio-cans-container">
+                <img
+                  src="imgs/can-pomme-figue-norm.png"
+                  alt="Pomme Figue Can"
+                  class="trio-can can-left"
+                />
+                <img
+                  id="trio-can-center"
+                  src="imgs/can-classic-norm.png"
+                  alt="Center Can"
+                  class="trio-can can-center"
+                />
+                <img
+                  src="imgs/can-pasteque-fraise-norm.png"
+                  alt="Pasteque Can"
+                  class="trio-can can-right"
+                />
+              </div>
+            </div>
+
+            <!-- Right: Pack Customizer -->
+            <div class="pack-customizer">
+              <!-- 4 Pack Sizes -->
+              <div class="pack-options-grid">
+                <div class="pack-radio-card" data-pack="single">
+                  <div class="pack-header-row">
+                    <span class="pack-name">Single Can</span>
+                  </div>
+                  <div class="pack-price">120 DA</div>
+                  <div class="pack-per-can">120 DA / can</div>
+                </div>
+
+                <div class="pack-radio-card selected" data-pack="six">
+                  <div class="pack-header-row">
+                    <span class="pack-name">6-Pack Case</span>
+                    <span class="pack-savings-tag">Save 30 DA</span>
+                  </div>
+                  <div class="pack-price">690 DA</div>
+                  <div class="pack-per-can">115 DA / can</div>
+                </div>
+
+                <div class="pack-radio-card" data-pack="twelve">
+                  <div class="pack-header-row">
+                    <span class="pack-name">12-Pack Party</span>
+                    <span class="pack-savings-tag">Save 90 DA</span>
+                  </div>
+                  <div class="pack-price">1,350 DA</div>
+                  <div class="pack-per-can">112.5 DA / can</div>
+                </div>
+
+                <div class="pack-radio-card" data-pack="twentyfour">
+                  <div class="pack-header-row">
+                    <span class="pack-name">24-Pack Beast</span>
+                    <span class="pack-savings-tag">Save 290 DA</span>
+                  </div>
+                  <div class="pack-price">2,590 DA</div>
+                  <div class="pack-per-can">107.9 DA / can</div>
+                </div>
+              </div>
+
+              <!-- Flavor Choice for Pack -->
+              <div class="builder-flavor-select">
+                <span class="builder-flavor-label"
+                  >Select Flavor For Pack:</span
+                >
+                <div class="builder-flavor-chips">
+                  <button class="builder-chip active" data-flavor="classic">
+                    Classic Lion
+                  </button>
+                  <button class="builder-chip" data-flavor="pomme-figue">
+                    Pomme & Figue
+                  </button>
+                  <button class="builder-chip" data-flavor="pasteque-fraise">
+                    Pastèque & Fraise
+                  </button>
+                  <button class="builder-chip" data-flavor="cerise">
+                    Cerise Sauvage
+                  </button>
+                </div>
+              </div>
+
+              <!-- Quantity & Add to Cart -->
+              <div class="builder-action-bar">
+                <div class="qty-control">
+                  <button id="pack-qty-minus" class="qty-btn">-</button>
+                  <span id="pack-qty-val" class="qty-val">1</span>
+                  <button id="pack-qty-plus" class="qty-btn">+</button>
+                </div>
+
+                <button
+                  id="btn-add-pack"
+                  class="btn btn-primary"
+                  style="flex: 1"
+                >
+                  <span>Add To Cart</span>
+                  <span>⚡</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Wild Power Lifestyle Section (Featuring User's Artwork) -->
+      <section id="wild-power" class="section">
+        <div class="container">
+          <div class="lifestyle-banner">
+            <img
+              src="imgs/images (5).jpg"
+              alt="IZEM Energy Skater Wild Power Lifestyle"
+              class="lifestyle-banner-bg"
+            />
+            <div class="lifestyle-overlay"></div>
+
+            <div class="lifestyle-content">
+              <span class="lifestyle-tag">BEAST MODE ACTIVATED</span>
+              <h2 class="lifestyle-headline">WILD POWER FOR WILD DREAMS</h2>
+              <p class="lifestyle-desc">
+                Whether you're hitting the skate park, crushing midnight code,
+                or pushing your athletic limits in the gym, IZEM fuels your
+                inner champion.
+              </p>
+              <a href="#packs" class="btn btn-primary">
+                <span>Fuel Your Grind</span>
+                <span>→</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Customer Reviews Section -->
+      <section
+        id="reviews"
+        class="section"
+        style="background: rgba(255, 255, 255, 0.01)"
+      >
+        <div class="container">
+          <div class="section-header">
+            <span class="tag-pill">ATHLETES & CREATORS</span>
+            <h2 class="section-title">What People <span>Are Saying</span></h2>
+            <p class="section-desc">
+              Rated 4.9/5 by thousands of energetic individuals across Algeria.
+            </p>
+          </div>
+
+          <div class="reviews-grid">
+            <div class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">
+                "Pomme-Figue is an absolute masterpiece. It tastes so natural
+                and crisp, totally unlike the chemical energy drinks I used to
+                drink. And zero afternoon crash!"
+              </p>
+              <div class="reviewer-meta">
+                <div class="reviewer-avatar">YM</div>
+                <div class="reviewer-info">
+                  <h4>Yacine M.</h4>
+                  <p>Crossfit Athlete • Algiers</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">
+                "As a software developer pulling late hours, IZEM Classic gives
+                me laser focus for 5 solid hours. Cleanest energy drink on the
+                market in Algeria."
+              </p>
+              <div class="reviewer-meta">
+                <div class="reviewer-avatar">SB</div>
+                <div class="reviewer-info">
+                  <h4>Sofiane B.</h4>
+                  <p>Tech Lead • Oran</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-text">
+                "Pastèque-Fraise on ice after a skate session hits different.
+                The lion design is stunning and the 12-pack price is great
+                value."
+              </p>
+              <div class="reviewer-meta">
+                <div class="reviewer-avatar">AK</div>
+                <div class="reviewer-info">
+                  <h4>Amine K.</h4>
+                  <p>Street Skater • Constantine</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top-grid">
+          <div class="footer-brand">
+            <div class="brand-logo">
+              <div class="logo-icon">⚡</div>
+              <div>
+                <span>IZEM</span>
+                <span class="brand-tag">ENERGY • IFRI</span>
+              </div>
+            </div>
+            <p>
+              Born in Algeria, fueled by nature. Premium energy formulated with
+              pure botanical extracts and mountain spring water.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="footer-heading">Flavors</h4>
+            <ul class="footer-links-list">
+              <li>
+                <a href="#flavors" class="footer-link-item">Classic Lion</a>
+              </li>
+              <li>
+                <a href="#flavors" class="footer-link-item">Pomme & Figue</a>
+              </li>
+              <li>
+                <a href="#flavors" class="footer-link-item"
+                  >Pastèque & Fraise</a
+                >
+              </li>
+              <li>
+                <a href="#flavors" class="footer-link-item">Cerise Sauvage</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="footer-heading">Company</h4>
+            <ul class="footer-links-list">
+              <li>
+                <a href="#formula" class="footer-link-item">Our Formula</a>
+              </li>
+              <li>
+                <a href="#wild-power" class="footer-link-item"
+                  >The Wild Movement</a
+                >
+              </li>
+              <li><a href="#packs" class="footer-link-item">Bulk Orders</a></li>
+              <li><a href="#" class="footer-link-item">Sustainability</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="footer-heading">Join The Tribe</h4>
+            <p
+              style="
+                color: var(--theme-text-muted);
+                font-size: 0.9rem;
+                margin-bottom: 1rem;
+              "
+            >
+              Get secret drops, exclusive discounts, and event invites.
+            </p>
+            <form
+              class="newsletter-form"
+              onsubmit="
+                event.preventDefault();
+                alert('🎉 Welcome to the IZEM Tribe!');
+              "
+            >
+              <input
+                type="email"
+                placeholder="Enter your email"
+                class="newsletter-input"
+                required
+              />
+              <button type="submit" class="btn btn-primary btn-sm">Join</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer-bottom-bar">
+          <p>© 2026 IZEM ENERGY by ifri. All rights reserved.</p>
+          <p>Designed with passion for ultimate e-commerce aesthetics.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Slide-Out Shopping Cart Drawer -->
+    <div id="cart-backdrop" class="cart-drawer-backdrop"></div>
+    <aside id="cart-drawer" class="cart-drawer" aria-label="Shopping Cart">
+      <div class="cart-drawer-header">
+        <h3 class="cart-drawer-title">
+          <span>⚡</span>
+          <span>Your Energy Stash</span>
+        </h3>
+        <button
+          id="cart-close-btn"
+          class="cart-close-btn"
+          aria-label="Close Cart"
+        >
+          ✕
+        </button>
+      </div>
+
+      <!-- Free Shipping Goal -->
+      <div class="shipping-progress-bar">
+        <div id="shipping-notice-text" class="shipping-text">
+          Add <span>2,000 DA</span> more for free delivery!
+        </div>
+        <div class="progress-track">
+          <div
+            id="shipping-progress-fill"
+            class="progress-fill"
+            style="width: 0%"
+          ></div>
+        </div>
+      </div>
+
+      <!-- Items List -->
+      <div id="cart-items-container" class="cart-items-list">
+        <!-- Dynamic JS Insertion -->
+      </div>
+
+      <!-- Empty State -->
+      <div id="cart-empty-state" class="cart-empty-state">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+        >
+          <circle cx="9" cy="21" r="1"></circle>
+          <circle cx="20" cy="21" r="1"></circle>
+          <path
+            d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"
+          ></path>
+        </svg>
+        <p style="font-weight: 700; color: #fff">Your cart is empty</p>
+        <p style="font-size: 0.85rem">
+          Add some IZEM Energy drinks to power up your day!
+        </p>
+        <button
+          class="btn btn-primary btn-sm"
+          onclick="document.getElementById('cart-close-btn').click()"
+        >
+          Explore Drinks
+        </button>
+      </div>
+
+      <!-- Cart Footer -->
+      <div class="cart-drawer-footer">
+        <div class="cart-summary-row">
+          <span>Subtotal</span>
+          <span id="cart-subtotal">0 DA</span>
+        </div>
+        <div class="cart-summary-row">
+          <span>Shipping (Algeria)</span>
+          <span style="color: var(--theme-primary)"
+            >Calculated at checkout</span
+          >
+        </div>
+        <div class="cart-summary-row total">
+          <span>Estimated Total</span>
+          <span id="cart-total">0 DA</span>
+        </div>
+
+        <button id="btn-checkout" class="btn btn-primary" style="width: 100%">
+          <span>Proceed To Checkout</span>
+          <span>→</span>
+        </button>
+      </div>
+    </aside>
+
+    <!-- GSAP & ScrollTrigger Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    <!-- Main Application Script -->
+    <script src="app.js"></script>
+  </body>
+</html>
