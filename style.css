@@ -1101,11 +1101,10 @@ ul {
 }
 
 .flavor-item-card:hover {
-  transform: translateY(-10px);
   border-color: var(--theme-border);
   box-shadow:
-    0 20px 40px rgba(0, 0, 0, 0.5),
-    0 0 30px var(--theme-glow);
+    0 12px 28px rgba(0, 0, 0, 0.45),
+    0 0 20px var(--theme-glow);
 }
 
 .flavor-img-box {
@@ -1119,8 +1118,13 @@ ul {
   transition: transform var(--transition-smooth);
 }
 
-.flavor-item-card:hover .flavor-img-box {
-  transform: scale(1.08) rotate(-3deg);
+/* Lift only when hovering directly over the can image, small subtle lift */
+.flavor-img-box:hover {
+  transform: translateY(-6px) scale(1.04);
+}
+
+.flavor-img-box:hover img {
+  filter: drop-shadow(0 20px 28px rgba(0, 0, 0, 0.65));
 }
 
 .flavor-img-box img {

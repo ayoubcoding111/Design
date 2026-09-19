@@ -1,0 +1,164 @@
+{
+  ".vscode/extensions.json": {
+    "mtime": 1789744128.3098116,
+    "seen": 1789771879.0139527,
+    "ast_hash": "1685edef975e7b58577ada076f8dd917",
+    "semantic_hash": ""
+  },
+  "app.js": {
+    "mtime": 1789771964.8380473,
+    "seen": 1789771968.139616,
+    "ast_hash": "656956cece683c8767473bbf2cf3cb0a",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1789771915.6430385,
+    "seen": 1789771918.8338342,
+    "ast_hash": "d44d1e68722e267154bad25e27911964",
+    "semantic_hash": ""
+  },
+  "imgs/can-cerise-new.jpg": {
+    "mtime": 1789771350.153274,
+    "seen": 1789771879.0139763,
+    "ast_hash": "3af3f23849bd6bb9ac0ff8e4eb21bfd0",
+    "semantic_hash": ""
+  },
+  "imgs/can-cerise-norm.png": {
+    "mtime": 1789745688.4165366,
+    "seen": 1789771879.0139804,
+    "ast_hash": "0f2922755b8191da1bb14b95c200badf",
+    "semantic_hash": ""
+  },
+  "imgs/can-cerise.png": {
+    "mtime": 1789745526.697702,
+    "seen": 1789771879.0139837,
+    "ast_hash": "f03ea6fefb7a43d60381ee021e4cad8f",
+    "semantic_hash": ""
+  },
+  "imgs/can-classic-new.jpg": {
+    "mtime": 1789771407.1852574,
+    "seen": 1789771879.0139878,
+    "ast_hash": "5d251494810a0e71860560ac97c49569",
+    "semantic_hash": ""
+  },
+  "imgs/can-classic-norm.png": {
+    "mtime": 1789745688.3357863,
+    "seen": 1789771879.0139909,
+    "ast_hash": "c05c24dab68cf5bbe5815c48c4aa3748",
+    "semantic_hash": ""
+  },
+  "imgs/can-classic.png": {
+    "mtime": 1789745487.9419746,
+    "seen": 1789771879.0139945,
+    "ast_hash": "4edd183cc420e8d302a98537f0ba9b82",
+    "semantic_hash": ""
+  },
+  "imgs/can-pasteque-fraise-clean.png": {
+    "mtime": 1789745675.8465514,
+    "seen": 1789771879.013998,
+    "ast_hash": "2bba91b23c50390149a47c9b718d033c",
+    "semantic_hash": ""
+  },
+  "imgs/can-pasteque-fraise-norm.png": {
+    "mtime": 1789745688.385772,
+    "seen": 1789771879.0140016,
+    "ast_hash": "3abf1d3e41b8df253f70cc204c0d0ca5",
+    "semantic_hash": ""
+  },
+  "imgs/can-pasteque-fraise.png": {
+    "mtime": 1789745526.686828,
+    "seen": 1789771879.0140054,
+    "ast_hash": "a4d391acc7981a256e4f1640ae8efbf7",
+    "semantic_hash": ""
+  },
+  "imgs/can-pomme-figue-new.jpg": {
+    "mtime": 1789771330.4537177,
+    "seen": 1789771879.014009,
+    "ast_hash": "e747b0f56cca8ad49632c9058926ae81",
+    "semantic_hash": ""
+  },
+  "imgs/can-pomme-figue-norm.png": {
+    "mtime": 1789745688.3648992,
+    "seen": 1789771879.0140116,
+    "ast_hash": "326255fbfd55982d85e4997fe69fb420",
+    "semantic_hash": ""
+  },
+  "imgs/can-pomme-figue.png": {
+    "mtime": 1789745487.9666843,
+    "seen": 1789771879.0140142,
+    "ast_hash": "7bc48246993174d8c71c8317a402d679",
+    "semantic_hash": ""
+  },
+  "imgs/cans-duo-classic-pomme.jpg": {
+    "mtime": 1789771374.6239383,
+    "seen": 1789771879.0140173,
+    "ast_hash": "dadfaf889f0c4036b2ad8b2c6b4f334a",
+    "semantic_hash": ""
+  },
+  "imgs/images (1).jpg": {
+    "mtime": 1789744770.4667504,
+    "seen": 1789771879.0140202,
+    "ast_hash": "f411217a0f2157590b63ccda6f9b69a6",
+    "semantic_hash": ""
+  },
+  "imgs/images (2).jpg": {
+    "mtime": 1789744778.8598983,
+    "seen": 1789771879.0140228,
+    "ast_hash": "269db404fd88bb79ce8c988ad9ce99d6",
+    "semantic_hash": ""
+  },
+  "imgs/images (3).jpg": {
+    "mtime": 1789744787.3125496,
+    "seen": 1789771879.0140254,
+    "ast_hash": "efeea26504fb4aebc654ad4ddb935391",
+    "semantic_hash": ""
+  },
+  "imgs/images (4).jpg": {
+    "mtime": 1789744793.8379571,
+    "seen": 1789771879.0140283,
+    "ast_hash": "f411217a0f2157590b63ccda6f9b69a6",
+    "semantic_hash": ""
+  },
+  "imgs/images (5).jpg": {
+    "mtime": 1789744807.9758239,
+    "seen": 1789771879.0140314,
+    "ast_hash": "78162a29389cb4c8d45b51cccdecc48f",
+    "semantic_hash": ""
+  },
+  "imgs/images (6).jpg": {
+    "mtime": 1789744849.0385613,
+    "seen": 1789771879.0140343,
+    "ast_hash": "f47aeab49f23df6b2bb0f56fae39e000",
+    "semantic_hash": ""
+  },
+  "imgs/images.jpg": {
+    "mtime": 1789744735.5097759,
+    "seen": 1789771879.0140388,
+    "ast_hash": "fac0a8166421b58ef1514516ee417532",
+    "semantic_hash": ""
+  },
+  "new imgs/Gemini_Generated_Image_86w86786w86786w8.jpg": {
+    "mtime": 1789771374.6239383,
+    "seen": 1789771879.0140417,
+    "ast_hash": "dadfaf889f0c4036b2ad8b2c6b4f334a",
+    "semantic_hash": ""
+  },
+  "new imgs/Gemini_Generated_Image_d0a81gd0a81gd0a8.jpg": {
+    "mtime": 1789771330.4537177,
+    "seen": 1789771879.0140445,
+    "ast_hash": "e747b0f56cca8ad49632c9058926ae81",
+    "semantic_hash": ""
+  },
+  "new imgs/Gemini_Generated_Image_s9uuuns9uuuns9uu.jpg": {
+    "mtime": 1789771407.1852574,
+    "seen": 1789771879.0140471,
+    "ast_hash": "5d251494810a0e71860560ac97c49569",
+    "semantic_hash": ""
+  },
+  "new imgs/Gemini_Generated_Image_wa4p3twa4p3twa4p.jpg": {
+    "mtime": 1789771350.153274,
+    "seen": 1789771879.0140502,
+    "ast_hash": "3af3f23849bd6bb9ac0ff8e4eb21bfd0",
+    "semantic_hash": ""
+  }
+}
